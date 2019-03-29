@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Outreaches on Anthony Kevins</title>
+    <link>http://anthonykevins.github.io/outreach/</link>
+    <description>Recent content in Outreaches on Anthony Kevins</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 22 Mar 2019 00:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="http://anthonykevins.github.io/outreach/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Le Monde</title>
+      <link>http://anthonykevins.github.io/outreach/le-monde/</link>
+      <pubDate>Fri, 22 Mar 2019 00:00:00 +0100</pubDate>
+      
+      <guid>http://anthonykevins.github.io/outreach/le-monde/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Discover Society</title>
+      <link>http://anthonykevins.github.io/outreach/discover-society/</link>
+      <pubDate>Wed, 06 Feb 2019 00:00:00 +0100</pubDate>
+      
+      <guid>http://anthonykevins.github.io/outreach/discover-society/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Maclean&#39;s</title>
+      <link>http://anthonykevins.github.io/outreach/macleans/</link>
+      <pubDate>Fri, 11 Jan 2019 00:00:00 +0100</pubDate>
+      
+      <guid>http://anthonykevins.github.io/outreach/macleans/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LSE British Politics &amp; Policy</title>
+      <link>http://anthonykevins.github.io/outreach/lse-british-politics-and-policy/</link>
+      <pubDate>Mon, 25 Jun 2018 00:00:00 +0200</pubDate>
+      
+      <guid>http://anthonykevins.github.io/outreach/lse-british-politics-and-policy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Globe &amp; Mail</title>
+      <link>http://anthonykevins.github.io/outreach/globe-and-mail/</link>
+      <pubDate>Mon, 15 Jun 2015 00:00:00 +0200</pubDate>
+      
+      <guid>http://anthonykevins.github.io/outreach/globe-and-mail/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors on Anthony Kevins</title>
+    <link>http://anthonykevins.github.io/fr/authors/</link>
+    <description>Recent content in Authors on Anthony Kevins</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    
+	<atom:link href="http://anthonykevins.github.io/fr/authors/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>admin</title>
+      <link>http://anthonykevins.github.io/fr/authors/admin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://anthonykevins.github.io/fr/authors/admin/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
