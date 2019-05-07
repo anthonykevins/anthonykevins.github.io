@@ -3,6 +3,15 @@
   
     <url>
     
+      <xhtml:link rel="alternate" href="http://anthonykevins.github.io/outreach/cordis/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="http://anthonykevins.github.io/fr/outreach/cordis/" hreflang="fr"/>
+    
+      <loc>http://anthonykevins.github.io/outreach/cordis/</loc>
+      <lastmod>2019-04-30T00:00:00+02:00</lastmod>
+    </url>
+  
+    <url>
+    
       <xhtml:link rel="alternate" href="http://anthonykevins.github.io/outreach/le-monde/" hreflang="en"/>
       <xhtml:link rel="alternate" href="http://anthonykevins.github.io/fr/outreach/le-monde/" hreflang="fr"/>
     
@@ -69,7 +78,7 @@
       <xhtml:link rel="alternate" href="http://anthonykevins.github.io/fr/" hreflang="fr"/>
     
       <loc>http://anthonykevins.github.io/</loc>
-      <lastmod>2019-03-22T00:00:00+01:00</lastmod>
+      <lastmod>2019-04-30T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
   
@@ -106,7 +115,7 @@
       <xhtml:link rel="alternate" href="http://anthonykevins.github.io/fr/outreach/" hreflang="fr"/>
     
       <loc>http://anthonykevins.github.io/outreach/</loc>
-      <lastmod>2019-03-22T00:00:00+01:00</lastmod>
+      <lastmod>2019-04-30T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
   
