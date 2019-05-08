@@ -6,10 +6,19 @@
     <description>Recent content in Outreaches on Anthony Kevins</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 30 Apr 2019 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 08 May 2019 00:00:00 +0200</lastBuildDate>
     
 	<atom:link href="http://anthonykevins.github.io/outreach/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The Social Policy Blog</title>
+      <link>http://anthonykevins.github.io/outreach/the-social-policy-blog/</link>
+      <pubDate>Wed, 08 May 2019 00:00:00 +0200</pubDate>
+      
+      <guid>http://anthonykevins.github.io/outreach/the-social-policy-blog/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>CORDIS</title>
