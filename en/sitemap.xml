@@ -1,5 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+    <url>
+    
+      <xhtml:link rel="alternate" href="http://anthonykevins.github.io/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="http://anthonykevins.github.io/fr/" hreflang="fr"/>
+    
+      <loc>http://anthonykevins.github.io/</loc>
+      <lastmod>2019-05-08T00:00:00+02:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <xhtml:link rel="alternate" href="http://anthonykevins.github.io/outreach/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="http://anthonykevins.github.io/fr/outreach/" hreflang="fr"/>
+    
+      <loc>http://anthonykevins.github.io/outreach/</loc>
+      <lastmod>2019-05-08T00:00:00+02:00</lastmod>
+      <priority>0</priority>
+    </url>
   
     <url>
     
@@ -74,20 +93,10 @@
   
     <url>
     
-      <xhtml:link rel="alternate" href="http://anthonykevins.github.io/authors/admin/" hreflang="en"/>
-      <xhtml:link rel="alternate" href="http://anthonykevins.github.io/fr/authors/admin/" hreflang="fr"/>
+      <xhtml:link rel="alternate" href="http://anthonykevins.github.io/authors/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="http://anthonykevins.github.io/fr/authors/" hreflang="fr"/>
     
-      <loc>http://anthonykevins.github.io/authors/admin/</loc>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
-      <xhtml:link rel="alternate" href="http://anthonykevins.github.io/" hreflang="en"/>
-      <xhtml:link rel="alternate" href="http://anthonykevins.github.io/fr/" hreflang="fr"/>
-    
-      <loc>http://anthonykevins.github.io/</loc>
-      <lastmod>2019-05-08T00:00:00+02:00</lastmod>
+      <loc>http://anthonykevins.github.io/authors/</loc>
       <priority>0</priority>
     </url>
   
@@ -102,29 +111,10 @@
   
     <url>
     
-      <xhtml:link rel="alternate" href="http://anthonykevins.github.io/authors/" hreflang="en"/>
-      <xhtml:link rel="alternate" href="http://anthonykevins.github.io/fr/authors/" hreflang="fr"/>
-    
-      <loc>http://anthonykevins.github.io/authors/</loc>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
       <xhtml:link rel="alternate" href="http://anthonykevins.github.io/categories/" hreflang="en"/>
       <xhtml:link rel="alternate" href="http://anthonykevins.github.io/fr/categories/" hreflang="fr"/>
     
       <loc>http://anthonykevins.github.io/categories/</loc>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
-      <xhtml:link rel="alternate" href="http://anthonykevins.github.io/outreach/" hreflang="en"/>
-      <xhtml:link rel="alternate" href="http://anthonykevins.github.io/fr/outreach/" hreflang="fr"/>
-    
-      <loc>http://anthonykevins.github.io/outreach/</loc>
-      <lastmod>2019-05-08T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
   
@@ -183,6 +173,15 @@
       <xhtml:link rel="alternate" href="http://anthonykevins.github.io/fr/teaching/" hreflang="fr"/>
     
       <loc>http://anthonykevins.github.io/teaching/</loc>
+    </url>
+  
+    <url>
+    
+      <xhtml:link rel="alternate" href="http://anthonykevins.github.io/authors/admin/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="http://anthonykevins.github.io/fr/authors/admin/" hreflang="fr"/>
+    
+      <loc>http://anthonykevins.github.io/authors/admin/</loc>
+      <priority>0</priority>
     </url>
   
 </urlset>
