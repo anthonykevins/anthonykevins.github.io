@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
     <copyright>&amp;copy; Anthony Kevins, {year}</copyright>
-    <lastBuildDate>Wed, 08 May 2019 00:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2020 00:00:00 +0100</lastBuildDate>
     
 	<atom:link href="http://anthonykevins.github.io/fr/outreach/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>POST</title>
+      <link>http://anthonykevins.github.io/fr/outreach/post/</link>
+      <pubDate>Wed, 07 Oct 2020 00:00:00 +0100</pubDate>
+      
+      <guid>http://anthonykevins.github.io/fr/outreach/post/</guid>
+      <description>Life beyond COVID-19: What are experts concerned about?</description>
+    </item>
     
     <item>
       <title>The Social Policy Blog</title>
