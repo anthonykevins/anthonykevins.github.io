@@ -6,7 +6,7 @@
       <xhtml:link rel="alternate" href="http://anthonykevins.github.io/fr/" hreflang="fr"/>
     
       <loc>http://anthonykevins.github.io/</loc>
-      <lastmod>2021-09-16T00:00:00+01:00</lastmod>
+      <lastmod>2021-10-11T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
   
@@ -16,8 +16,26 @@
       <xhtml:link rel="alternate" href="http://anthonykevins.github.io/fr/outreach/" hreflang="fr"/>
     
       <loc>http://anthonykevins.github.io/outreach/</loc>
-      <lastmod>2021-09-16T00:00:00+01:00</lastmod>
+      <lastmod>2021-10-11T00:00:00+01:00</lastmod>
       <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <xhtml:link rel="alternate" href="http://anthonykevins.github.io/outreach/the-political-behavior-blog/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="http://anthonykevins.github.io/fr/outreach/the-political-behavior-blog/" hreflang="fr"/>
+    
+      <loc>http://anthonykevins.github.io/outreach/the-political-behavior-blog/</loc>
+      <lastmod>2021-10-11T00:00:00+01:00</lastmod>
+    </url>
+  
+    <url>
+    
+      <xhtml:link rel="alternate" href="http://anthonykevins.github.io/outreach/stuk-rood-vlees/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="http://anthonykevins.github.io/fr/outreach/stuk-rood-vlees/" hreflang="fr"/>
+    
+      <loc>http://anthonykevins.github.io/outreach/stuk-rood-vlees/</loc>
+      <lastmod>2021-09-29T00:00:00+01:00</lastmod>
     </url>
   
     <url>
