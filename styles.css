@@ -702,15 +702,15 @@ a.hero-cta-alt:hover {
 
 #profile {
   text-align: center;
-  padding: 30px 10px;
+  padding: 10px 10px;
   position: relative;
 }
 
 .portrait {
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   margin: 0 auto;
-  border-radius: 50%;
+  border-radius: 0%;
   object-fit: cover;
 }
 
@@ -1378,7 +1378,7 @@ article .article-metadata {
 /*************************************************
  *  Accomplishments
  **************************************************/
- 
+
 .card.course {
   margin-bottom: 1rem; /* More compact spacing than Experience widget as typically more items here. */
 }
@@ -1759,7 +1759,7 @@ a.badge:hover {
 
 .dropdown-menu,
 nav#navbar-main li.nav-item {
-  font-size: 16px;
+  font-size: <no value>px;
 }
 
 .navbar-light .navbar-nav>.nav-item>.nav-link,
@@ -1769,7 +1769,7 @@ nav#navbar-main li.nav-item {
   -webkit-transition: 0.2s ease;
   transition: 0.2s ease;
   color: #fff;
-  font-weight: 600;
+  font-weight: 200;
 }
 
 .navbar-light .navbar-nav>.nav-item>.nav-link:focus {
