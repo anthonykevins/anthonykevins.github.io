@@ -27,6 +27,8 @@
     
       <loc>http://anthonykevins.github.io/fr/outreach/the-political-behavior-blog/</loc>
       <lastmod>2021-10-11T00:00:00+01:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
     </url>
   
     <url>
@@ -36,6 +38,8 @@
     
       <loc>http://anthonykevins.github.io/fr/outreach/stuk-rood-vlees/</loc>
       <lastmod>2021-09-29T00:00:00+01:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
     </url>
   
     <url>
@@ -45,6 +49,8 @@
     
       <loc>http://anthonykevins.github.io/fr/outreach/work-in-progress/</loc>
       <lastmod>2021-09-16T00:00:00+01:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
     </url>
   
     <url>
@@ -54,6 +60,8 @@
     
       <loc>http://anthonykevins.github.io/fr/outreach/post/</loc>
       <lastmod>2020-10-07T00:00:00+01:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
     </url>
   
     <url>
@@ -63,6 +71,8 @@
     
       <loc>http://anthonykevins.github.io/fr/outreach/the-social-policy-blog/</loc>
       <lastmod>2019-05-08T00:00:00+01:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
     </url>
   
     <url>
@@ -72,6 +82,8 @@
     
       <loc>http://anthonykevins.github.io/fr/outreach/cordis/</loc>
       <lastmod>2019-04-30T00:00:00+01:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
     </url>
   
     <url>
@@ -81,6 +93,8 @@
     
       <loc>http://anthonykevins.github.io/fr/outreach/le-monde/</loc>
       <lastmod>2019-03-22T00:00:00+00:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
     </url>
   
     <url>
@@ -90,6 +104,8 @@
     
       <loc>http://anthonykevins.github.io/fr/outreach/discover-society/</loc>
       <lastmod>2019-02-06T00:00:00+00:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
     </url>
   
     <url>
@@ -99,6 +115,8 @@
     
       <loc>http://anthonykevins.github.io/fr/outreach/macleans/</loc>
       <lastmod>2019-01-11T00:00:00+00:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
     </url>
   
     <url>
@@ -108,6 +126,8 @@
     
       <loc>http://anthonykevins.github.io/fr/outreach/lse-british-politics-and-policy/</loc>
       <lastmod>2018-06-25T00:00:00+01:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
     </url>
   
     <url>
@@ -117,6 +137,8 @@
     
       <loc>http://anthonykevins.github.io/fr/outreach/globe-and-mail/</loc>
       <lastmod>2015-06-15T00:00:00+01:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
     </url>
   
     <url>
@@ -125,6 +147,8 @@
       <xhtml:link rel="alternate" href="http://anthonykevins.github.io/author/admin/" hreflang="en"/>
     
       <loc>http://anthonykevins.github.io/fr/author/admin/</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
     </url>
   
     <url>
@@ -160,6 +184,8 @@
       <xhtml:link rel="alternate" href="http://anthonykevins.github.io/teaching/" hreflang="en"/>
     
       <loc>http://anthonykevins.github.io/fr/teaching/</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
     </url>
   
     <url>
@@ -177,6 +203,8 @@
       <xhtml:link rel="alternate" href="http://anthonykevins.github.io/publications/" hreflang="en"/>
     
       <loc>http://anthonykevins.github.io/fr/publications/</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
     </url>
   
     <url>
@@ -185,6 +213,8 @@
       <xhtml:link rel="alternate" href="http://anthonykevins.github.io/research/" hreflang="en"/>
     
       <loc>http://anthonykevins.github.io/fr/research/</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
     </url>
   
     <url>
