@@ -187,6 +187,16 @@
   
     <url>
     
+      <xhtml:link rel="alternate" href="https://anthonykevins.github.io/projects/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="https://anthonykevins.github.io/fr/projects/" hreflang="fr"/>
+    
+      <loc>https://anthonykevins.github.io/projects/</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+    </url>
+  
+    <url>
+    
       <xhtml:link rel="alternate" href="https://anthonykevins.github.io/publication_types/" hreflang="en"/>
       <xhtml:link rel="alternate" href="https://anthonykevins.github.io/fr/publication_types/" hreflang="fr"/>
     
@@ -214,16 +224,6 @@
     <url>
     
       <loc>https://anthonykevins.github.io/talk/</loc>
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-    
-      <xhtml:link rel="alternate" href="https://anthonykevins.github.io/research/" hreflang="en"/>
-      <xhtml:link rel="alternate" href="https://anthonykevins.github.io/fr/research/" hreflang="fr"/>
-    
-      <loc>https://anthonykevins.github.io/research/</loc>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
     </url>
