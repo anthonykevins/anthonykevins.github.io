@@ -23,14 +23,14 @@
  **************************************************/
 
 html {
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: <no value>px;
   color: rgba(0,0,0,0.8);
   line-height: 1.65;
 }
 @media screen and (min-width: 58em) {
   html {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
@@ -77,7 +77,7 @@ ul, ol, dl {
 
 /* Navigation bar text */
 .navbar-light {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;
   line-height: 1.25;
   text-rendering: optimizeLegibility;
@@ -85,7 +85,7 @@ ul, ol, dl {
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;
   margin-top: 1rem;
   margin-bottom: .5rem;
@@ -111,26 +111,26 @@ h2 {
   font-size: 1.5rem;
 }
 h3 {
-  font-weight: 700;
-  margin-top: 1.5rem;
-  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  font-size: 1rem;
 }
 h4, h5, h6 {
-  font-weight: 700;
+  font-weight: 500;
   margin-top: 1rem;
   font-size: 1rem;
 }
 
 a,
 h3.article-title a:hover {
-  color: #3f51b5;
+  color: #2962ff;
   text-decoration: none;
   transition: color 0.6s ease;
 }
 
 a:hover,
 a:focus {
-  color: #3f51b5;
+  color: #2962ff;
 }
 
 img,
@@ -157,7 +157,7 @@ figcaption {
   line-height: 1.25;
   font-size: 1rem;
   margin-bottom: 1.65rem;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 figcaption.numbered:before {
@@ -179,7 +179,7 @@ figcaption h4 {
 
 pre,
 code {
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Source Sans Pro', monospace;
   color: #c7254e;
   background-color: #f9f2f4;
 }
@@ -386,8 +386,8 @@ small,
 }
 
 .form-control:focus {
-  border-color: #3f51b5;
-  box-shadow: 0 0 0 .2rem #757de8;
+  border-color: #2962ff;
+  box-shadow: 0 0 0 .2rem #768fff;
 }
 
 /*************************************************
@@ -630,7 +630,7 @@ a[data-fancybox] img {
 }
 
 .wg-hero .btn {
-  color: #002984;
+  color: #0039cb;
   padding: .6em 2.1em;
 }
 
@@ -691,7 +691,7 @@ a.hero-cta-alt:hover {
 .featurette-icon {
   display: block;
   width: 100%;
-  color: #3f51b5;
+  color: #2962ff;
   font-size: 3rem;
   text-align: center;
 }
@@ -701,15 +701,15 @@ a.hero-cta-alt:hover {
  **************************************************/
 
 #profile {
-  text-align: center;
-  padding: 10px 10px;
+  text-align: left;
+  padding: 5px 5px;
   position: relative;
 }
 
 .portrait {
-  width: 300px;
-  height: 300px;
-  margin: 0 auto;
+  width: 240px;
+  height: 240px;
+  text-align: left;
   border-radius: 0%;
   object-fit: cover;
 }
@@ -724,8 +724,9 @@ a.hero-cta-alt:hover {
 .portrait-title h3 {
   font-size: 1rem;
   font-weight: 300;
-  color: rgba(0,0,0, 0.54);
-  margin: 0px 0 10px 0;
+  width: 240px;
+  color: rgba(0,0,0, 1);
+  margin: 0 0 10px 0;
 }
 
 ul.network-icon {
@@ -738,7 +739,7 @@ ul.network-icon {
 }
 
 #profile .network-icon {
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .network-icon li {
@@ -754,15 +755,18 @@ ul.network-icon {
 }
 
 .big-icon {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
+
 
 ul.ul-interests li {
-  font-size: 0.9rem;
+  font-size: .9rem;
+  list-style: circle;
 }
 
-ul.ul-edu {
-  list-style: none;
+ul.ul-education li {
+  font-size: .9rem;
+  list-style: circle;
 }
 
 ul.ul-edu li {
@@ -775,7 +779,7 @@ ul.ul-edu li .description p {
 }
 
 ul.ul-edu li .description p.course {
-  font-size: 0.9rem;
+  font-size: .9rem;
 }
 
 ul.ul-edu li .description p.institution {
@@ -1031,7 +1035,7 @@ article .article-metadata {
 }
 
 .article-metadata a:hover {
-  color: #3f51b5;
+  color: #2962ff;
 }
 
 .middot-divider {
@@ -1284,11 +1288,11 @@ article .article-metadata {
 
 .experience .m-2 .border,
 .experience .col.border-right {
-  border-color: #3f51b5 !important;
+  border-color: #2962ff !important;
 }
 
 .experience .m-2 .border.exp-fill {
-  background-color: #3f51b5 !important;
+  background-color: #2962ff !important;
 }
 
 /*************************************************
@@ -1613,14 +1617,14 @@ a.badge:hover {
 .tag-cloud a:active,
 .tag-cloud a:focus,
 .tag-cloud a:hover {
-  color: #002984;
+  color: #0039cb;
   transform: scale(1.2);
 }
 
 .dark .tag-cloud a:active,
 .dark .tag-cloud a:focus,
 .dark .tag-cloud a:hover {
-  color: #757de8;
+  color: #768fff;
 }
 
 /*************************************************
@@ -1650,13 +1654,13 @@ a.badge:hover {
  **************************************************/
 
 .btn-primary {
-  border-color: #3f51b5;
-  background: #3f51b5;
+  border-color: #2962ff;
+  background: #2962ff;
 }
 
 .btn-outline-primary {
-  border-color: #3f51b5;
-  color: #3f51b5;
+  border-color: #2962ff;
+  color: #2962ff;
 }
 
 .btn-primary:hover,
@@ -1664,7 +1668,7 @@ a.badge:hover {
 .btn-primary.active,
 .btn-primary:visited,
 .open > .dropdown-toggle.btn-primary {
-  background: #3f51b5;
+  background: #2962ff;
 }
 
 .btn-outline-light:hover,
@@ -1677,8 +1681,8 @@ a.badge:hover {
 .btn-outline-primary:not(:disabled):not(.disabled):active,
 .show > .btn-outline-primary.dropdown-toggle {
   color: #fff;
-  background-color: #3f51b5;
-  border-color: #3f51b5;
+  background-color: #2962ff;
+  border-color: #2962ff;
 }
 
 .dark .btn-outline-primary:not(:disabled):not(.disabled).active,
@@ -1689,8 +1693,8 @@ a.badge:hover {
 
 .btn-outline-primary:hover {
   color: #fff;
-  background-color: #3f51b5;
-  border-color: #3f51b5;
+  background-color: #2962ff;
+  border-color: #2962ff;
 }
 
 .dark .btn-outline-primary:hover {
@@ -1717,18 +1721,18 @@ a.badge:hover {
 
 .btn-toolbar .btn.btn-primary:hover,
 .btn-toolbar .btn.btn-primary:focus {
-  background-color: #757de8 !important;
+  background-color: #768fff !important;
 }
 
 .btn-toolbar .btn.btn-primary:active,
 .btn-toolbar .btn.btn-primary.active {
-  background-color: #002984 !important;
+  background-color: #0039cb !important;
 }
 
 .btn-primary:not(:disabled):not(.disabled).active:focus,
 .btn-primary:not(:disabled):not(.disabled):active:focus,
 .show > .btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 .2rem #757de8;
+  box-shadow: 0 0 0 .2rem #768fff;
 }
 
 /*************************************************
@@ -1736,11 +1740,11 @@ a.badge:hover {
  **************************************************/
 
 .navbar {
-  min-height: 70px !important;
+  min-height: 100px !important;
 }
 
 .navbar-light {
-  background: #3f51b5 !important;
+  background: #fff !important;
   box-shadow: 0 0.125rem 0.25rem 0 rgba(0,0,0,.11)
 }
 
@@ -1749,7 +1753,7 @@ a.badge:hover {
 }
 
 .navbar-toggler {
-  color: #fff !important;
+  color: #34495e !important;
 }
 
 .navbar-light .navbar-toggler:focus,
@@ -1768,24 +1772,24 @@ nav#navbar-main li.nav-item {
   white-space: nowrap;
   -webkit-transition: 0.2s ease;
   transition: 0.2s ease;
-  color: #fff;
+  color: #34495e;
   font-weight: 200;
 }
 
 .navbar-light .navbar-nav>.nav-item>.nav-link:focus {
-  color: #fff;
+  color: #34495e;
   background-color: transparent;
 }
 
 .navbar-light .navbar-nav>.nav-item>.nav-link:hover {
-  color: #8c9eff;
+  color: #2962ff;
   background-color: transparent;
 }
 
 .navbar-light .navbar-nav>li.nav-item>a.active,
 .navbar-light .navbar-nav>li.nav-item>a.active:focus,
 .navbar-light .navbar-nav>li.nav-item>a.active:hover {
-  color: #8c9eff;
+  color: #2962ff;
   font-weight: 700;
   background-color: transparent !important; /* Override Bootstrap. */
 }
@@ -1803,11 +1807,11 @@ nav#navbar-main li.nav-item {
 }
 
 .navbar-light .navbar-toggler .icon-bar {
-  background-color: #fff !important;
+  background-color: #34495e !important;
 }
 
 .dropdown-menu {
-  background-color: #3f51b5 !important;
+  background-color: #fff !important;
 }
 
 .dropdown-menu > li > a {
@@ -1816,23 +1820,23 @@ nav#navbar-main li.nav-item {
   clear: both;
   font-weight: 400;
   line-height: 1.42857143;
-  color: #fff;
+  color: #34495e;
   white-space: nowrap;
 }
 
 .dropdown-menu>li>a:focus,
 .dropdown-menu>li>a:hover {
-  color: #8c9eff;
+  color: #2962ff;
   text-decoration: none;
-  background-color: #3f51b5;
+  background-color: #fff;
 }
 
 .dropdown-menu > .active,
 .dropdown-menu > .active:focus,
 .dropdown-menu > .active:hover {
-  color: #3f51b5;
+  color: #fff;
   text-decoration: none;
-  background-color: #8c9eff;
+  background-color: #2962ff;
   outline: 0;
 }
 
@@ -1840,19 +1844,19 @@ nav#navbar-main li.nav-item {
 .navbar-light .navbar-nav>.open>a:focus,
 .navbar-light .navbar-nav>.open>a:hover,
 .navbar-light .navbar-nav>.open>a:visited {
-  color: #fff !important;
-  background-color: #3f51b5 !important;
+  color: #34495e !important;
+  background-color: #fff !important;
 }
 
 .navbar-light .navbar-brand {
   font-weight: bold;
-  font-size: 1.2em;
-  color: #fff;
+  font-size: 1.85em;
+  color: #2b2b2b;
 }
 
 .navbar-light .navbar-brand:focus,
 .navbar-light .navbar-brand:hover {
-  color: #fff;
+  color: #2b2b2b;
   background-color: transparent;
 }
 
@@ -1894,7 +1898,7 @@ nav#navbar-main li.nav-item {
     clear: both;
     font-weight: 400;
     line-height: 1.42857143;
-    color: #fff;
+    color: #34495e;
     white-space: nowrap;
   }
 
@@ -1910,7 +1914,7 @@ nav#navbar-main li.nav-item {
   .navbar-light .navbar-nav .open .dropdown-menu > li > a {
     padding: 5px 15px 5px 25px;
     line-height: 20px;
-    color: #fff;
+    color: #34495e;
   }
 
   .navbar-light .navbar-nav .open .dropdown-menu > li > a:focus,
@@ -1922,7 +1926,7 @@ nav#navbar-main li.nav-item {
   .navbar-light .navbar-nav .open .dropdown-menu >.nav-item> .active,
   .navbar-light .navbar-nav .open .dropdown-menu >.nav-item> .active:focus,
   .navbar-light .navbar-nav .open .dropdown-menu >.nav-item> .active:hover {
-    color: #8c9eff;
+    color: #2962ff;
     background-color: transparent;
   }
 
@@ -2094,8 +2098,8 @@ div.alert a {
 }
 
 .docs-search .form-control:focus {
-  border-color: #3f51b5;
-  box-shadow: 0 0 0 3px #757de8;
+  border-color: #2962ff;
+  box-shadow: 0 0 0 3px #768fff;
 }
 
 /* Docs sidebar. */
@@ -2160,7 +2164,7 @@ div.alert a {
 .docs-sidebar .nav>.active:hover>a,
 .docs-sidebar .nav>.active>a {
   font-weight: bold;
-  color: #3f51b5;
+  color: #2962ff;
   background-color: transparent;
 }
 
@@ -2169,7 +2173,7 @@ div.alert a {
 .docs-toggle {
   line-height: 1;
   font-size: 1.2rem;
-  color: #3f51b5;
+  color: #2962ff;
   background-color: transparent;
 }
 
@@ -2286,7 +2290,7 @@ ul.toc-top {
 
 #TableOfContents li a:hover,
 .toc-top li a:hover {
-  color: #3f51b5;
+  color: #2962ff;
   text-decoration: none;
 }
 
@@ -2294,12 +2298,12 @@ ul.toc-top {
 
 .anchorjs-link {
   font-weight: 400;
-  color: #002984;
+  color: #0039cb;
   transition: color .16s linear;
 }
 
 .anchorjs-link:hover {
-  color: #3f51b5;
+  color: #2962ff;
   text-decoration: none;
 }
 
@@ -2324,8 +2328,8 @@ body.dark,
 
 .dark .form-control:focus {
   background-color: rgb(68, 71, 90);
-  border-color: #3f51b5;
-  box-shadow: 0 0 0 .2rem #002984;
+  border-color: #2962ff;
+  box-shadow: 0 0 0 .2rem #0039cb;
 }
 
 .dark h1,
@@ -2357,7 +2361,7 @@ body.dark,
 }
 
 .dark ul.share li a {
-  background-color: #3f51b5;
+  background-color: #2962ff;
 }
 
 .dark table table {
@@ -2410,7 +2414,7 @@ body.dark,
 }
 
 .dark .card h4 a {
-  color: #3f51b5;
+  color: #2962ff;
   border-bottom: solid 1px transparent;
 }
 
