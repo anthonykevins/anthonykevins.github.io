@@ -704,6 +704,7 @@ a.hero-cta-alt:hover {
   text-align: left;
   padding: 5px 5px;
   position: relative;
+  margin:2px auto 2px auto;
 }
 
 .portrait {
@@ -718,7 +719,7 @@ a.hero-cta-alt:hover {
   font-size: 1.75em;
   font-weight: 300;
   color: #000000;
-  margin: 20px 0 10px 0;
+  margin: 20px 10px 0;
 }
 
 .portrait-title h3 {
@@ -1818,7 +1819,7 @@ nav#navbar-main li.nav-item {
   display: block;
   padding: 3px 20px;
   clear: both;
-  font-weight: 400;
+  font-weight: 200;
   line-height: 1.42857143;
   color: #34495e;
   white-space: nowrap;
