@@ -704,7 +704,6 @@ a.hero-cta-alt:hover {
   text-align: left;
   padding: 5px 5px;
   position: relative;
-  margin:2px auto 2px auto;
 }
 
 .portrait {
@@ -719,7 +718,7 @@ a.hero-cta-alt:hover {
   font-size: 1.75em;
   font-weight: 300;
   color: #000000;
-  margin: 20px 10px 0;
+  margin: 20px 0 10px 0;
 }
 
 .portrait-title h3 {
@@ -1555,8 +1554,8 @@ article .article-metadata {
  **************************************************/
 
 footer {
-  margin: 4rem 0 0;
-  padding: 2rem 0;
+  margin: 1rem 0 0;
+  padding: 1rem 0;
   width: 100%;
 }
 
