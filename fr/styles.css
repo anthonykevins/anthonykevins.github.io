@@ -28,9 +28,37 @@ html {
   color: rgba(0,0,0,0.8);
   line-height: 1.65;
 }
+
 @media screen and (min-width: 58em) {
   html {
     font-size: 18px;
+  }
+}
+
+@media screen and (max-width:640px){
+  img{
+       float:none !important;
+       display:block !important;
+       margin-left:auto !important;
+       margin-right:auto !important;
+   }
+  #profile {
+    text-align: center !important;
+    position: relative !important;
+  }
+  .portrait {
+    margin: 0 auto !important;
+  }
+  .portrait-title h3 {
+    text-align: center !important;
+    position: relative !important;
+    display:block !important;
+    margin-left:auto !important;
+    margin-right:auto !important;
+    margin-top: 0rem !important;
+  }
+  #profile .network-icon {
+    margin-top: 0px !important;
   }
 }
 
@@ -51,7 +79,6 @@ body {
 }
 
 .max-width-640 {
-  max-width: 640px;
 }
 
 .margin-auto {
