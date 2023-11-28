@@ -35,6 +35,12 @@ html {
   }
 }
 
+#aboutme{
+  padding-top: 40px;
+  margin-top: -40px;
+  scroll-snap-align: end;
+}
+
 @media screen and (max-width:640px){
   img{
        float:none !important;
@@ -134,7 +140,7 @@ h1 {
   font-size: 2.25rem;
 }
 h2 {
-  margin-top: 1rem;
+  margin-top: -1rem;
   font-size: 1.5rem;
 }
 h3 {
@@ -1813,13 +1819,13 @@ nav#navbar-main li.nav-item {
   background-color: transparent;
 }
 
-.navbar-light .navbar-nav>li.nav-item>a.active,
+/* .navbar-light .navbar-nav>li.nav-item>a.active,
 .navbar-light .navbar-nav>li.nav-item>a.active:focus,
 .navbar-light .navbar-nav>li.nav-item>a.active:hover {
   color: #2962ff;
   font-weight: 700;
   background-color: transparent !important; /* Override Bootstrap. */
-}
+} */
 
 .navbar-brand,
 .navbar-nav li.nav-item a.nav-link {
