@@ -6,8 +6,19 @@
       <xhtml:link rel="alternate" href="https://anthonykevins.github.io/fr/" hreflang="fr"/>
     
       <loc>https://anthonykevins.github.io/</loc>
-      <lastmod>2021-10-11T00:00:00+01:00</lastmod>
+      <lastmod>2024-04-06T00:00:00+01:00</lastmod>
       <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <xhtml:link rel="alternate" href="https://anthonykevins.github.io/outreach/business-network/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="https://anthonykevins.github.io/fr/outreach/business-network/" hreflang="fr"/>
+    
+      <loc>https://anthonykevins.github.io/outreach/business-network/</loc>
+      <lastmod>2024-04-06T00:00:00+01:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
     </url>
   
     <url>
@@ -16,7 +27,7 @@
       <xhtml:link rel="alternate" href="https://anthonykevins.github.io/fr/outreach/" hreflang="fr"/>
     
       <loc>https://anthonykevins.github.io/outreach/</loc>
-      <lastmod>2021-10-11T00:00:00+01:00</lastmod>
+      <lastmod>2024-04-06T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
   
