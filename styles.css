@@ -724,8 +724,8 @@ a.hero-cta-alt:hover {
 .portrait-title h3 {
   font-size: 1rem;
   font-weight: 300;
-  color: rgba(0,0,0, 0.54);
-  margin: 0px 0 10px 0;
+  color: #000000;
+  margin: 0px 0 5px 0;
 }
 
 ul.network-icon {
