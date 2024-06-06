@@ -700,6 +700,7 @@ a.hero-cta-alt:hover {
  *  About widget
  **************************************************/
 
+ 
 #profile {
   text-align: center;
   padding: 30px 10px;
@@ -758,24 +759,32 @@ ul.network-icon {
 }
 
 ul.ul-interests li {
-  font-size: 0.9rem;
+  font-size: 1rem;
+  line-height: 125%; 
 }
 
 ul.ul-education li {
-  font-size: 0.9rem;
+  font-size: 1rem;
+  margin: -1px 0;
+  padding: 1px; 
+  line-height: 125%; 
 }
 
 ul.ul-edu {
-  list-style: none;
+  font-size: 1rem;
+  display: block;
+  padding: 1px;
+  line-height: 125%; 
 }
 
 ul.ul-edu li {
-  position: relative;
-  padding: 0px 15px 4px 3px;
+  margin: -1px 0;
+  line-height: 125%; 
 }
 
 ul.ul-edu li .description p {
   margin: 0;
+  line-height: 90%;
 }
 
 ul.ul-edu li .description p.course {
