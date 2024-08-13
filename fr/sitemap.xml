@@ -6,8 +6,29 @@
       <xhtml:link rel="alternate" href="https://anthonykevins.github.io/" hreflang="en"/>
     
       <loc>https://anthonykevins.github.io/fr/</loc>
-      <lastmod>2024-04-06T00:00:00+01:00</lastmod>
+      <lastmod>2024-08-11T00:00:00+01:00</lastmod>
       <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <xhtml:link rel="alternate" href="https://anthonykevins.github.io/fr/outreach/" hreflang="fr"/>
+      <xhtml:link rel="alternate" href="https://anthonykevins.github.io/outreach/" hreflang="en"/>
+    
+      <loc>https://anthonykevins.github.io/fr/outreach/</loc>
+      <lastmod>2024-08-11T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <xhtml:link rel="alternate" href="https://anthonykevins.github.io/fr/outreach/vancouver-sun/" hreflang="fr"/>
+      <xhtml:link rel="alternate" href="https://anthonykevins.github.io/outreach/vancouver-sun/" hreflang="en"/>
+    
+      <loc>https://anthonykevins.github.io/fr/outreach/vancouver-sun/</loc>
+      <lastmod>2024-08-11T00:00:00+01:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
     </url>
   
     <url>
@@ -19,16 +40,6 @@
       <lastmod>2024-04-06T00:00:00+01:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
-    </url>
-  
-    <url>
-    
-      <xhtml:link rel="alternate" href="https://anthonykevins.github.io/fr/outreach/" hreflang="fr"/>
-      <xhtml:link rel="alternate" href="https://anthonykevins.github.io/outreach/" hreflang="en"/>
-    
-      <loc>https://anthonykevins.github.io/fr/outreach/</loc>
-      <lastmod>2024-04-06T00:00:00+01:00</lastmod>
-      <priority>0</priority>
     </url>
   
     <url>
