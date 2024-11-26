@@ -24,13 +24,47 @@
 
 html {
   font-family: 'Roboto', sans-serif;
-  font-size: 17px;
+  font-size: 16px;
   color: rgba(0,0,0,0.8);
   line-height: 1.65;
 }
+
 @media screen and (min-width: 58em) {
   html {
-    font-size: 17px;
+    font-size: 20px;
+  }
+}
+
+#aboutme{
+  padding-top: 40px;
+  margin-top: -40px;
+  scroll-snap-align: end;
+}
+
+@media screen and (max-width:640px){
+  img{
+       float:none !important;
+       display:block !important;
+       margin-left:auto !important;
+       margin-right:auto !important;
+   }
+  #profile {
+    text-align: center !important;
+    position: relative !important;
+  }
+  .portrait {
+    margin: 0 auto !important;
+  }
+  .portrait-title h3 {
+    text-align: center !important;
+    position: relative !important;
+    display:block !important;
+    margin-left:auto !important;
+    margin-right:auto !important;
+    margin-top: 0rem !important;
+  }
+  #profile .network-icon {
+    margin-top: 0px !important;
   }
 }
 
@@ -51,7 +85,6 @@ body {
 }
 
 .max-width-640 {
-  max-width: 640px;
 }
 
 .margin-auto {
@@ -85,7 +118,7 @@ ul, ol, dl {
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   margin-top: 1rem;
   margin-bottom: .5rem;
@@ -104,11 +137,11 @@ h1, h2, h3, h4, h5, h6 {
   hyphens: manual;
 }
 h1 {
-  font-size: 2rem;
+  font-size: 2.25rem;
 }
 h2 {
-  margin-top: 1rem;
-  font-size: 1.25rem;
+  margin-top: -1rem;
+  font-size: 1.5rem;
 }
 h3 {
   font-weight: 600;
@@ -116,49 +149,21 @@ h3 {
   font-size: 1rem;
 }
 h4, h5, h6 {
-  font-weight: 600;
+  font-weight: 500;
   margin-top: 1rem;
   font-size: 1rem;
 }
 
-p a:hover {
+a,
+h3.article-title a:hover {
   color: #2962ff;
   text-decoration: none;
   transition: color 0.6s ease;
 }
 
-h3.article-title a:hover,
-p a:focus {
+a:hover,
+a:focus {
   color: #2962ff;
-}
-
-p a {
-  color: inherit;
-  text-decoration: none;
-}
-
-p a {
-  background:
-    linear-gradient(
-      to right,
-      rgba(0, 0, 0),
-      rgba(0, 0, 0)
-    ),
-    linear-gradient(
-      to right,
-      rgba(255, 0, 0, 1),
-      rgba(255, 0, 180, 1),
-      rgba(35, 85, 173, 1)
-      );
-  background-size: 100% 2px, 0 2px;
-  background-position: 100% 100%, 0 100%;
-  background-repeat: no-repeat;
-  transition: background-size 400ms;
-}
-
-p a:hover {
-  background-size: 0 2px, 100% 2px;
-  color:rgba(35, 85, 173, 1);
 }
 
 img,
@@ -185,7 +190,7 @@ figcaption {
   line-height: 1.25;
   font-size: 1rem;
   margin-bottom: 1.65rem;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 figcaption.numbered:before {
@@ -370,7 +375,7 @@ small,
 }
 
 #search-box::before {
-  font-family: 'Font Awesome 6 Free';
+  font-family: 'Font Awesome 5 Free';
   font-weight: 900;
   content: "\f002";
   font-size: 1rem;
@@ -728,33 +733,33 @@ a.hero-cta-alt:hover {
  *  About widget
  **************************************************/
 
- 
 #profile {
-  text-align: center;
-  padding: 30px 10px;
+  text-align: left;
+  padding: 5px 5px;
   position: relative;
 }
 
 .portrait {
-  width: 200px;
-  height: 200px;
-  margin: 0 auto;
-  border-radius: 25% 10%;
+  width: 240px;
+  height: 240px;
+  text-align: left;
+  border-radius: 0%;
   object-fit: cover;
 }
 
 .portrait-title h2 {
-  font-size: 1.75em;
-  font-weight: 100;
+  font-size: 1rem;
+  font-weight: 300;
   color: #000000;
-  margin: 20px 0 10px 0;
+  margin: 20px 0 0 0;
 }
 
 .portrait-title h3 {
   font-size: 1rem;
-  font-weight: 500;
-  color: #000000;
-  margin: 0px 0 5px 0;
+  font-weight: 300;
+  width: 240px;
+  color: rgba(0,0,0, 1);
+  margin: 0 0 10px 0;
 }
 
 ul.network-icon {
@@ -767,7 +772,7 @@ ul.network-icon {
 }
 
 #profile .network-icon {
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .network-icon li {
@@ -783,40 +788,31 @@ ul.network-icon {
 }
 
 .big-icon {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
+
 ul.ul-interests li {
-  font-size: 1rem;
-  line-height: 125%; 
+  font-size: .9rem;
+  list-style: circle;
 }
 
 ul.ul-education li {
-  font-size: 1rem;
-  margin: -1px 0;
-  padding: 1px; 
-  line-height: 125%; 
-}
-
-ul.ul-edu {
-  font-size: 1rem;
-  display: block;
-  padding: 1px;
-  line-height: 125%; 
+  font-size: .9rem;
+  list-style: circle;
 }
 
 ul.ul-edu li {
-  margin: -1px 0;
-  line-height: 125%; 
+  position: relative;
+  padding: 0px 15px 4px 3px;
 }
 
 ul.ul-edu li .description p {
   margin: 0;
-  line-height: 90%;
 }
 
 ul.ul-edu li .description p.course {
-  font-size: 0.9rem;
+  font-size: .9rem;
 }
 
 ul.ul-edu li .description p.institution {
@@ -1419,7 +1415,7 @@ article .article-metadata {
 /*************************************************
  *  Accomplishments
  **************************************************/
- 
+
 .card.course {
   margin-bottom: 1rem; /* More compact spacing than Experience widget as typically more items here. */
 }
@@ -1536,7 +1532,7 @@ article .article-metadata {
   transform: translate(0, -50%);
   opacity: 0;
   transition: all 0.2s ease-out;
-  font-family: 'Font Awesome 6 Free';
+  font-family: 'Font Awesome 5 Free';
   font-weight: 900;
   content: '\f0c1';
   text-align: center;
@@ -1591,8 +1587,8 @@ article .article-metadata {
  **************************************************/
 
 footer {
-  margin: 4rem 0 0;
-  padding: 2rem 0;
+  margin: 1rem 0 0;
+  padding: 1rem 0;
   width: 100%;
 }
 
@@ -1777,7 +1773,7 @@ a.badge:hover {
  **************************************************/
 
 .navbar {
-  min-height: 70px !important;
+  min-height: 100px !important;
 }
 
 .navbar-light {
@@ -1800,7 +1796,7 @@ a.badge:hover {
 
 .dropdown-menu,
 nav#navbar-main li.nav-item {
-  font-size: 17px;
+  font-size: <no value>px;
 }
 
 .navbar-light .navbar-nav>.nav-item>.nav-link,
@@ -1810,7 +1806,7 @@ nav#navbar-main li.nav-item {
   -webkit-transition: 0.2s ease;
   transition: 0.2s ease;
   color: #34495e;
-  font-weight: 600;
+  font-weight: 200;
 }
 
 .navbar-light .navbar-nav>.nav-item>.nav-link:focus {
@@ -1823,13 +1819,13 @@ nav#navbar-main li.nav-item {
   background-color: transparent;
 }
 
-.navbar-light .navbar-nav>li.nav-item>a.active,
+/* .navbar-light .navbar-nav>li.nav-item>a.active,
 .navbar-light .navbar-nav>li.nav-item>a.active:focus,
 .navbar-light .navbar-nav>li.nav-item>a.active:hover {
   color: #2962ff;
   font-weight: 700;
   background-color: transparent !important; /* Override Bootstrap. */
-}
+} */
 
 .navbar-brand,
 .navbar-nav li.nav-item a.nav-link {
@@ -1855,7 +1851,7 @@ nav#navbar-main li.nav-item {
   display: block;
   padding: 3px 20px;
   clear: both;
-  font-weight: 400;
+  font-weight: 200;
   line-height: 1.42857143;
   color: #34495e;
   white-space: nowrap;
@@ -1887,7 +1883,7 @@ nav#navbar-main li.nav-item {
 
 .navbar-light .navbar-brand {
   font-weight: bold;
-  font-size: 1.2em;
+  font-size: 1.85em;
   color: #2b2b2b;
 }
 
@@ -2056,7 +2052,7 @@ div.alert > div:first-child::before {
   left: -2rem;
   font-size: 1.5rem;
   color: #209cee;
-  font-family: 'Font Awesome 6 Free';
+  font-family: 'Font Awesome 5 Free';
   font-weight: 900;
   content: '\f05a';
   width: 1.5rem;
@@ -2064,7 +2060,7 @@ div.alert > div:first-child::before {
 }
 
 div.alert-warning > div:first-child::before {
-  font-family: 'Font Awesome 6 Free';
+  font-family: 'Font Awesome 5 Free';
   font-weight: 900;
   color: #ff3860;
   content: '\f071';
