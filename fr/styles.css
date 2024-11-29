@@ -154,17 +154,6 @@ h4, h5, h6 {
   font-size: 1rem;
 }
 
-a,
-h3.article-title a:hover {
-  color: #2962ff;
-  text-decoration: none;
-  transition: color 0.6s ease;
-}
-
-a:hover,
-a:focus {
-  color: #2962ff;
-}
 
 img,
 video {
@@ -808,7 +797,7 @@ ul.ul-edu li {
 }
 
 ul.ul-edu li .description p {
-  margin: 0;
+  margin: 10;
 }
 
 ul.ul-edu li .description p.course {
