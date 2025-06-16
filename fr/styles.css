@@ -41,6 +41,10 @@ html {
   scroll-snap-align: end;
 }
 
+#profile {
+  text-align: center;
+}
+
 @media screen and (max-width:640px){
   img{
        float:none !important;
@@ -62,6 +66,7 @@ html {
     margin-left:auto !important;
     margin-right:auto !important;
     margin-top: 0rem !important;
+    font-family: 'Roboto', sans-serif; 
   }
   #profile .network-icon {
     margin-top: 0px !important;
