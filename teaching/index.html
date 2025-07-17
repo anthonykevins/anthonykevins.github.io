@@ -85,7 +85,10 @@
 
   
   
-  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono">
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
+</noscript>
   
 
   <link rel="stylesheet" href="/styles.css">
@@ -98,24 +101,10 @@
     
     
     
-    <link rel="stylesheet" href="/css/academic.e06c6266d6012c52b6103e7d1698d56e.css">
+    <link rel="stylesheet" href="/css/academic.c3c1faa768815c32920e7984f6c7d77b.css">
   
 
   
-  
-    <script>
-      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-      ga('create', 'UA-113520276-1', 'auto');
-      ga('set', 'anonymizeIp', true);
-      ga('require', 'eventTracker');
-      ga('require', 'outboundLinkTracker');
-      ga('require', 'urlChangeTracker');
-      ga('send', 'pageview');
-    </script>
-    <script async src="//www.google-analytics.com/analytics.js"></script>
-    
-    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
-    
   
   
 
@@ -216,6 +205,21 @@
 </aside>
 
 
+  <script>
+  window.addEventListener('load', function () {
+    var gaScript = document.createElement('script');
+    gaScript.src = 'https://www.googletagmanager.com/gtag/js?id=UA-113520276-1';
+    gaScript.async = true;
+    document.head.appendChild(gaScript);
+
+    gaScript.onload = function () {
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){ dataLayer.push(arguments); }
+      gtag('js', new Date());
+      gtag('config', 'UA-113520276-1');
+    };
+  });
+</script>
 <nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
   <div class="container">
 
