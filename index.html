@@ -105,7 +105,7 @@
     
     
     
-    <link rel="stylesheet" href="/css/academic.min.e9327b822a4835fe49d29ee9701084a0.css" integrity="md5-6TJ7gipINf5J0p7pcBCEoA==">
+    <link rel="stylesheet" href="/css/academic.min.d906e365c67ca2de46ffc84ba13273aa.css" integrity="md5-2QbjZcZ8ot5G/8hLoTJzqg==">
   
 
   
@@ -1466,6 +1466,37 @@
         gtag('js', new Date());
         gtag('config', 'UA-113520276-1');
       }
+    });
+  </script>
+
+  
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
+
+      dropdownToggles.forEach(toggle => {
+        toggle.addEventListener('click', function (e) {
+          e.preventDefault();
+          const menu = this.nextElementSibling;
+          if (menu && menu.classList.contains('dropdown-menu')) {
+            menu.classList.toggle('show');
+          }
+        });
+      });
+
+      document.addEventListener('click', function (e) {
+        dropdownToggles.forEach(toggle => {
+          const menu = toggle.nextElementSibling;
+          if (
+            menu &&
+            menu.classList.contains('dropdown-menu') &&
+            !toggle.contains(e.target) &&
+            !menu.contains(e.target)
+          ) {
+            menu.classList.remove('show');
+          }
+        });
+      });
     });
   </script>
 
