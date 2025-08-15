@@ -478,176 +478,125 @@
   </div>
 </div>
 
-    
-
-    
-    
-
-    
-    
-    
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous" defer></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous" defer></script>
-
-      
-
-      
-      
-    
-
-    
-    
-
-    
-    
-    
-
-    
-    
-
-    
-    
-    <script>
-      const search_index_filename = "/index.json";
-      const i18n = {
-        'placeholder': "Search...",
-        'results': "results found",
-        'no_results': "No results found"
-      };
-      const content_type = {
-        'post': "Posts",
-        'project': "Projects",
-        'publication' : "Publications",
-        'talk' : "Talks"
-        };
-    </script>
-    
-
-    
-    
-
-    
-
-    
-    
-
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-      
-    
-    
-    
-    
-    <script src="/js/academic.min.76a41a243fcea75defe7d35a07d3aaa3.js" defer></script>
+<script defer src="https://cdn.jsdelivr.net/npm/cookieconsent@3.2.0/dist/cookieconsent.js"></script>
 
 <link rel="preload" href="https://cdn.jsdelivr.net/npm/cookieconsent@3.2.0/dist/cookieconsent.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3.2.0/dist/cookieconsent.css"></noscript>
-  <script>
-    window.addEventListener("DOMContentLoaded", function () {
+
+
+
+<script>
+  (function(){
+    
+    function loadGA4(){
+      if (window._ga4Loaded) return;
+      window._ga4Loaded = true;
+
+      var s = document.createElement('script');
+      s.src = 'https://www.googletagmanager.com/gtag/js?id=G-5QD7DTYJM3';  
+      s.async = true;
+      document.head.appendChild(s);
+
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){ dataLayer.push(arguments); }
+      window.gtag = window.gtag || gtag;
+
+      
+      gtag('consent', 'default', {
+        'ad_storage': 'denied',
+        'analytics_storage': 'denied',
+        'functionality_storage': 'denied',
+        'security_storage': 'granted'
+      });
+
+      gtag('js', new Date());
+      gtag('config', 'G-5QD7DTYJM3', { 'anonymize_ip': true }); 
+    }
+
+    function initConsent(){
+      if (!window.CookieConsent) return; 
       CookieConsent.run({
         guiOptions: {
-          consentModal: {
-            layout: 'box',
-            position: 'bottom right',
-            transition: 'slide'
-          },
-          preferencesModal: {
-            layout: 'box',
-            position: 'left',
-            transition: 'slide'
-          }
+          consentModal: { layout: 'box', position: 'bottom right', transition: 'slide' },
+          preferencesModal: { layout: 'box', position: 'left', transition: 'slide' }
         },
-        categories: {
-          analytics: {
-            enabled: false,
-            readOnly: false
-          }
-        },
+        categories: { analytics: { enabled: false, readOnly: false } },
         language: {
-          default: "en",
+          default: 'en',
           translations: {
             en: {
               consentModal: {
-                title: "We use cookies",
-                description: "This site uses cookies to analyze traffic. You can consent or customize your preferences.",
-                acceptAllBtn: "Accept all",
-                rejectAllBtn: "Reject",
-                showPreferencesBtn: "Manage settings"
+                title: 'We use cookies',
+                description: 'This site uses cookies to analyze traffic. You can consent or customize your preferences.',
+                acceptAllBtn: 'Accept all',
+                rejectAllBtn: 'Reject',
+                showPreferencesBtn: 'Manage settings'
               },
               preferencesModal: {
-                title: "Cookie preferences",
-                acceptAllBtn: "Accept all",
-                rejectAllBtn: "Reject",
-                savePreferencesBtn: "Save preferences",
-                closeIconLabel: "Close modal",
-                sections: [
-                  {
-                    title: "Analytics cookies",
-                    description: "Used to track site usage via Google Analytics."
-                  }
-                ]
+                title: 'Cookie preferences',
+                acceptAllBtn: 'Accept all',
+                rejectAllBtn: 'Reject',
+                savePreferencesBtn: 'Save preferences',
+                closeIconLabel: 'Close modal',
+                sections: [ { title: 'Analytics cookies', description: 'Used to track site usage via Google Analytics (GA4).' } ]
               }
             }
           }
         },
-        onAccept: (cookie) => {
+        onAccept: function(){
           if (CookieConsent.acceptedCategory('analytics')) {
-            loadAnalytics();
+            loadGA4();
+            if (window.gtag) { gtag('consent', 'update', { 'analytics_storage': 'granted' }); }
           }
         }
       });
 
-      function loadAnalytics() {
-        var s = document.createElement("script");
-        s.src = "https://www.googletagmanager.com/gtag/js?id=UA-113520276-1";
-        s.async = true;
-        document.head.appendChild(s);
+      
+      try {
+        if (CookieConsent.acceptedCategory && CookieConsent.acceptedCategory('analytics')) {
+          loadGA4();
+          if (window.gtag) { gtag('consent', 'update', { 'analytics_storage': 'granted' }); }
+        }
+      } catch(e) {}
+    }
 
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'UA-113520276-1');
-      }
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initConsent);
+    } else {
+      initConsent();
+    }
+  })();
+</script>
+
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
+
+    dropdownToggles.forEach(toggle => {
+      toggle.addEventListener('click', function (e) {
+        e.preventDefault();
+        const menu = this.nextElementSibling;
+        if (menu && menu.classList.contains('dropdown-menu')) {
+          menu.classList.toggle('show');
+        }
+      });
     });
-  </script>
 
-  
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
-
+    document.addEventListener('click', function (e) {
       dropdownToggles.forEach(toggle => {
-        toggle.addEventListener('click', function (e) {
-          e.preventDefault();
-          const menu = this.nextElementSibling;
-          if (menu && menu.classList.contains('dropdown-menu')) {
-            menu.classList.toggle('show');
-          }
-        });
-      });
-
-      document.addEventListener('click', function (e) {
-        dropdownToggles.forEach(toggle => {
-          const menu = toggle.nextElementSibling;
-          if (
-            menu &&
-            menu.classList.contains('dropdown-menu') &&
-            !toggle.contains(e.target) &&
-            !menu.contains(e.target)
-          ) {
-            menu.classList.remove('show');
-          }
-        });
+        const menu = toggle.nextElementSibling;
+        if (
+          menu &&
+          menu.classList.contains('dropdown-menu') &&
+          !toggle.contains(e.target) &&
+          !menu.contains(e.target)
+        ) {
+          menu.classList.remove('show');
+        }
       });
     });
-  </script>
-</html>
+  });
+</script>
 
