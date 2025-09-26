@@ -6,8 +6,9 @@
       <xhtml:link rel="alternate" href="https://anthonykevins.github.io/" hreflang="en"/>
     
       <loc>https://anthonykevins.github.io/fr/</loc>
-      <lastmod>2025-05-09T00:00:00+01:00</lastmod>
-      <priority>0</priority>
+      <lastmod>2025-05-09T00:00:00+00:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
     </url>
   
     <url>
@@ -16,7 +17,7 @@
       <xhtml:link rel="alternate" href="https://anthonykevins.github.io/outreach/life-in-politics/" hreflang="en"/>
     
       <loc>https://anthonykevins.github.io/fr/outreach/life-in-politics/</loc>
-      <lastmod>2025-05-09T00:00:00+01:00</lastmod>
+      <lastmod>2025-05-09T00:00:00+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
     </url>
@@ -27,8 +28,9 @@
       <xhtml:link rel="alternate" href="https://anthonykevins.github.io/outreach/" hreflang="en"/>
     
       <loc>https://anthonykevins.github.io/fr/outreach/</loc>
-      <lastmod>2025-05-09T00:00:00+01:00</lastmod>
-      <priority>0</priority>
+      <lastmod>2025-05-09T00:00:00+00:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
     </url>
   
     <url>
@@ -37,7 +39,7 @@
       <xhtml:link rel="alternate" href="https://anthonykevins.github.io/outreach/future-focus/" hreflang="en"/>
     
       <loc>https://anthonykevins.github.io/fr/outreach/future-focus/</loc>
-      <lastmod>2024-09-18T00:00:00+01:00</lastmod>
+      <lastmod>2024-09-18T00:00:00+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
     </url>
@@ -48,7 +50,7 @@
       <xhtml:link rel="alternate" href="https://anthonykevins.github.io/outreach/vancouver-sun/" hreflang="en"/>
     
       <loc>https://anthonykevins.github.io/fr/outreach/vancouver-sun/</loc>
-      <lastmod>2024-08-11T00:00:00+01:00</lastmod>
+      <lastmod>2024-08-11T00:00:00+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
     </url>
@@ -59,7 +61,7 @@
       <xhtml:link rel="alternate" href="https://anthonykevins.github.io/outreach/business-network/" hreflang="en"/>
     
       <loc>https://anthonykevins.github.io/fr/outreach/business-network/</loc>
-      <lastmod>2024-04-06T00:00:00+01:00</lastmod>
+      <lastmod>2024-04-06T00:00:00+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
     </url>
@@ -70,7 +72,7 @@
       <xhtml:link rel="alternate" href="https://anthonykevins.github.io/outreach/the-political-behavior-blog/" hreflang="en"/>
     
       <loc>https://anthonykevins.github.io/fr/outreach/the-political-behavior-blog/</loc>
-      <lastmod>2021-10-11T00:00:00+01:00</lastmod>
+      <lastmod>2021-10-11T00:00:00+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
     </url>
@@ -81,7 +83,7 @@
       <xhtml:link rel="alternate" href="https://anthonykevins.github.io/outreach/stuk-rood-vlees/" hreflang="en"/>
     
       <loc>https://anthonykevins.github.io/fr/outreach/stuk-rood-vlees/</loc>
-      <lastmod>2021-09-29T00:00:00+01:00</lastmod>
+      <lastmod>2021-09-29T00:00:00+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
     </url>
@@ -92,7 +94,7 @@
       <xhtml:link rel="alternate" href="https://anthonykevins.github.io/outreach/work-in-progress/" hreflang="en"/>
     
       <loc>https://anthonykevins.github.io/fr/outreach/work-in-progress/</loc>
-      <lastmod>2021-09-16T00:00:00+01:00</lastmod>
+      <lastmod>2021-09-16T00:00:00+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
     </url>
@@ -103,7 +105,7 @@
       <xhtml:link rel="alternate" href="https://anthonykevins.github.io/outreach/post/" hreflang="en"/>
     
       <loc>https://anthonykevins.github.io/fr/outreach/post/</loc>
-      <lastmod>2020-10-07T00:00:00+01:00</lastmod>
+      <lastmod>2020-10-07T00:00:00+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
     </url>
@@ -114,7 +116,7 @@
       <xhtml:link rel="alternate" href="https://anthonykevins.github.io/outreach/the-social-policy-blog/" hreflang="en"/>
     
       <loc>https://anthonykevins.github.io/fr/outreach/the-social-policy-blog/</loc>
-      <lastmod>2019-05-08T00:00:00+01:00</lastmod>
+      <lastmod>2019-05-08T00:00:00+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
     </url>
@@ -125,7 +127,7 @@
       <xhtml:link rel="alternate" href="https://anthonykevins.github.io/outreach/cordis/" hreflang="en"/>
     
       <loc>https://anthonykevins.github.io/fr/outreach/cordis/</loc>
-      <lastmod>2019-04-30T00:00:00+01:00</lastmod>
+      <lastmod>2019-04-30T00:00:00+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
     </url>
@@ -169,7 +171,7 @@
       <xhtml:link rel="alternate" href="https://anthonykevins.github.io/outreach/lse-british-politics-and-policy/" hreflang="en"/>
     
       <loc>https://anthonykevins.github.io/fr/outreach/lse-british-politics-and-policy/</loc>
-      <lastmod>2018-06-25T00:00:00+01:00</lastmod>
+      <lastmod>2018-06-25T00:00:00+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
     </url>
@@ -180,7 +182,7 @@
       <xhtml:link rel="alternate" href="https://anthonykevins.github.io/outreach/globe-and-mail/" hreflang="en"/>
     
       <loc>https://anthonykevins.github.io/fr/outreach/globe-and-mail/</loc>
-      <lastmod>2015-06-15T00:00:00+01:00</lastmod>
+      <lastmod>2015-06-15T00:00:00+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
     </url>
@@ -197,11 +199,22 @@
   
     <url>
     
+      <xhtml:link rel="alternate" href="https://anthonykevins.github.io/fr/authors/admin/" hreflang="fr"/>
+      <xhtml:link rel="alternate" href="https://anthonykevins.github.io/authors/admin/" hreflang="en"/>
+    
+      <loc>https://anthonykevins.github.io/fr/authors/admin/</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+    </url>
+  
+    <url>
+    
       <xhtml:link rel="alternate" href="https://anthonykevins.github.io/fr/authors/" hreflang="fr"/>
       <xhtml:link rel="alternate" href="https://anthonykevins.github.io/authors/" hreflang="en"/>
     
       <loc>https://anthonykevins.github.io/fr/authors/</loc>
-      <priority>0</priority>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
     </url>
   
     <url>
@@ -210,7 +223,8 @@
       <xhtml:link rel="alternate" href="https://anthonykevins.github.io/author/" hreflang="en"/>
     
       <loc>https://anthonykevins.github.io/fr/author/</loc>
-      <priority>0</priority>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
     </url>
   
     <url>
@@ -219,7 +233,8 @@
       <xhtml:link rel="alternate" href="https://anthonykevins.github.io/categories/" hreflang="en"/>
     
       <loc>https://anthonykevins.github.io/fr/categories/</loc>
-      <priority>0</priority>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
     </url>
   
     <url>
@@ -248,7 +263,8 @@
       <xhtml:link rel="alternate" href="https://anthonykevins.github.io/publication_types/" hreflang="en"/>
     
       <loc>https://anthonykevins.github.io/fr/publication_types/</loc>
-      <priority>0</priority>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
     </url>
   
     <url>
@@ -267,16 +283,8 @@
       <xhtml:link rel="alternate" href="https://anthonykevins.github.io/tags/" hreflang="en"/>
     
       <loc>https://anthonykevins.github.io/fr/tags/</loc>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
-      <xhtml:link rel="alternate" href="https://anthonykevins.github.io/fr/authors/admin/" hreflang="fr"/>
-      <xhtml:link rel="alternate" href="https://anthonykevins.github.io/authors/admin/" hreflang="en"/>
-    
-      <loc>https://anthonykevins.github.io/fr/authors/admin/</loc>
-      <priority>0</priority>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
     </url>
   
 </urlset>
