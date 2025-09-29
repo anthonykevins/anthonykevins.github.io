@@ -529,95 +529,117 @@
   </div>
 </div>
 
-<script defer src="https://cdn.jsdelivr.net/npm/cookieconsent@3.2.0/dist/cookieconsent.js"></script>
 
-<link rel="preload" href="https://cdn.jsdelivr.net/npm/cookieconsent@3.2.0/dist/cookieconsent.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3.2.0/dist/cookieconsent.css"></noscript>
+<link rel="preload" href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.1.0/dist/cookieconsent.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.1.0/dist/cookieconsent.css"></noscript>
+<script defer src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.1.0/dist/cookieconsent.umd.js"></script>
 
 
 
 <script>
-  (function(){
+(function(){
+  
+  function loadGA4(){
+    if (window._ga4Loaded) return;
+    window._ga4Loaded = true;
+
     
-    function loadGA4(){
-      if (window._ga4Loaded) return;
-      window._ga4Loaded = true;
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-5QD7DTYJM3';
+    s.async = true;
+    document.head.appendChild(s);
 
-      var s = document.createElement('script');
-      s.src = 'https://www.googletagmanager.com/gtag/js?id=G-5QD7DTYJM3';  
-      s.async = true;
-      document.head.appendChild(s);
+    
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ dataLayer.push(arguments); }
+    window.gtag = window.gtag || gtag;
 
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){ dataLayer.push(arguments); }
-      window.gtag = window.gtag || gtag;
+    gtag('consent', 'default', {
+      ad_storage: 'denied',
+      analytics_storage: 'denied',
+      functionality_storage: 'denied',
+      security_storage: 'granted'
+    });
 
-      
-      gtag('consent', 'default', {
-        'ad_storage': 'denied',
-        'analytics_storage': 'denied',
-        'functionality_storage': 'denied',
-        'security_storage': 'granted'
-      });
+    gtag('js', new Date());
+    gtag('config', 'G-5QD7DTYJM3', { anonymize_ip: true });
+    console.info('[GA4] Loaded after consent');
+  }
 
-      gtag('js', new Date());
-      gtag('config', 'G-5QD7DTYJM3', { 'anonymize_ip': true }); 
+  function initConsent(){
+    if (!window.CookieConsent) {
+      console.warn('[CookieConsent] Global not found. Check CDN URL.');
+      return;
     }
 
-    function initConsent(){
-      if (!window.CookieConsent) return; 
-      CookieConsent.run({
-        guiOptions: {
-          consentModal: { layout: 'box', position: 'bottom right', transition: 'slide' },
-          preferencesModal: { layout: 'box', position: 'left', transition: 'slide' }
-        },
-        categories: { analytics: { enabled: false, readOnly: false } },
-        language: {
-          default: 'en',
-          translations: {
-            en: {
-              consentModal: {
-                title: 'We use cookies',
-                description: 'This site uses cookies to analyze traffic. You can consent or customize your preferences.',
-                acceptAllBtn: 'Accept all',
-                rejectAllBtn: 'Reject',
-                showPreferencesBtn: 'Manage settings'
-              },
-              preferencesModal: {
-                title: 'Cookie preferences',
-                acceptAllBtn: 'Accept all',
-                rejectAllBtn: 'Reject',
-                savePreferencesBtn: 'Save preferences',
-                closeIconLabel: 'Close modal',
-                sections: [ { title: 'Analytics cookies', description: 'Used to track site usage via Google Analytics (GA4).' } ]
-              }
+    CookieConsent.run({
+      guiOptions: {
+        consentModal: { layout: 'box', position: 'bottom right', transition: 'slide' },
+        preferencesModal: { layout: 'box', position: 'left', transition: 'slide' }
+      },
+
+      
+      categories: { analytics: { enabled: false, readOnly: false } },
+
+      
+      language: {
+        default: 'en',
+        translations: {
+          en: {
+            consentModal: {
+              title: 'We use cookies',
+              description: 'This site uses cookies to analyze traffic. You can consent or customize your preferences.',
+              acceptAllBtn: 'Accept all',
+              rejectAllBtn: 'Reject',
+              showPreferencesBtn: 'Manage settings'
+            },
+            preferencesModal: {
+              title: 'Cookie preferences',
+              acceptAllBtn: 'Accept all',
+              rejectAllBtn: 'Reject',
+              savePreferencesBtn: 'Save preferences',
+              closeIconLabel: 'Close modal',
+              sections: [
+                { title: 'Analytics cookies', description: 'Used to track site usage via Google Analytics (GA4).' }
+              ]
             }
           }
-        },
-        onAccept: function(){
-          if (CookieConsent.acceptedCategory('analytics')) {
-            loadGA4();
-            if (window.gtag) { gtag('consent', 'update', { 'analytics_storage': 'granted' }); }
-          }
         }
-      });
+      },
 
       
-      try {
-        if (CookieConsent.acceptedCategory && CookieConsent.acceptedCategory('analytics')) {
+      onConsent: function(){
+        if (CookieConsent.acceptedCategory('analytics')) {
           loadGA4();
-          if (window.gtag) { gtag('consent', 'update', { 'analytics_storage': 'granted' }); }
+          if (window.gtag) gtag('consent', 'update', { analytics_storage: 'granted' });
+        } else {
+          console.info('[GA4] Analytics not consented.');
         }
-      } catch(e) {}
-    }
+      },
 
-    if (document.readyState === 'loading') {
-      document.addEventListener('DOMContentLoaded', initConsent);
-    } else {
-      initConsent();
-    }
-  })();
+      
+      onChange: function({ changedCategories }){
+        if (changedCategories && changedCategories.includes('analytics')) {
+          if (CookieConsent.acceptedCategory('analytics')) {
+            loadGA4();
+            if (window.gtag) gtag('consent', 'update', { analytics_storage: 'granted' });
+          } else {
+            console.info('[GA4] Analytics disabled by user.');
+          }
+        }
+      }
+    });
+  }
+
+  
+  if (document.readyState === 'complete') {
+    initConsent();
+  } else {
+    window.addEventListener('load', initConsent);
+  }
+})();
 </script>
+
 
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
@@ -654,4 +676,3 @@
     });
   });
 </script>
-
