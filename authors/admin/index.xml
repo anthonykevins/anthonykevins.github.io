@@ -1,19 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Admin on Anthony Kevins</title>
-    <link>https://anthonykevins.github.io/authors/admin/</link>
-    <description>Recent content in Admin on Anthony Kevins</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; Anthony Kevins, {year}</copyright>
-    <atom:link href="https://anthonykevins.github.io/authors/admin/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title></title>
-      <link>https://anthonykevins.github.io/author/admin/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://anthonykevins.github.io/author/admin/</guid>
-      <description>I&amp;rsquo;m a political scientist interested in the interplay between public opinion, policy-making processes, and government legislation.&#xA;Some questions I&amp;rsquo;ve explored in my research include: How can we best understand social care preferences? What factors shape attitudes toward the welfare state? And why do some citizens want certain groups to have more or less policy influence than others?&#xA;I&amp;rsquo;ve published over two dozen peer-reviewed studies, and you can find my articles in high-impact journals such as Comparative Political Studies, the European Journal of Political Research, and West European Politics.</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Admin on Anthony Kevins</title><link>https://anthonykevins.github.io/authors/admin/</link><description>Recent content in Admin on Anthony Kevins</description><generator>Hugo</generator><language>en-us</language><copyright>&amp;copy; Anthony Kevins, {year}</copyright><atom:link href="https://anthonykevins.github.io/authors/admin/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://anthonykevins.github.io/author/admin/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://anthonykevins.github.io/author/admin/</guid><description>I&amp;rsquo;m a political scientist interested in the interplay between public opinion, policy-making processes, and government legislation.
+Some questions I&amp;rsquo;ve explored in my research include: How can we best understand social care preferences? What factors shape attitudes toward the welfare state? And why do some citizens want certain groups to have more or less policy influence than others?
+I&amp;rsquo;ve published over two dozen peer-reviewed studies, and you can find my articles in high-impact journals such as Comparative Political Studies, the European Journal of Political Research, and West European Politics.</description></item></channel></rss>
