@@ -1,38 +1,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Anthony Kevins on Anthony Kevins</title>
-    <link>https://anthonykevins.github.io/fr/</link>
+    <link>http://localhost:1313/fr/</link>
     <description>Recent content in Anthony Kevins on Anthony Kevins</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>fr</language>
     <copyright>&amp;copy; Anthony Kevins, {year}</copyright>
     <lastBuildDate>Tue, 14 Apr 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://anthonykevins.github.io/fr/" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/fr/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Outreaches</title>
-      <link>https://anthonykevins.github.io/fr/outreach/</link>
+      <link>http://localhost:1313/fr/outreach/</link>
       <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://anthonykevins.github.io/fr/outreach/</guid>
+      <guid>http://localhost:1313/fr/outreach/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Authors</title>
-      <link>https://anthonykevins.github.io/fr/author/</link>
+      <link>http://localhost:1313/fr/author/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://anthonykevins.github.io/fr/author/</guid>
+      <guid>http://localhost:1313/fr/author/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Enseignement</title>
-      <link>https://anthonykevins.github.io/fr/teaching/</link>
+      <link>http://localhost:1313/fr/teaching/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://anthonykevins.github.io/fr/teaching/</guid>
+      <guid>http://localhost:1313/fr/teaching/</guid>
       <description>&lt;p&gt;Vous trouverez ci-dessous une vue d’ensemble de mes expériences en enseignement. Pour plus de détails, vous pouvez également consulter mon &lt;a href=&#34;https://anthonykevins.github.io/files/Teaching_Portfolio.pdf&#34;&gt;dossier d&amp;rsquo;enseignement&lt;/a&gt; (disponible uniquement en anglais).&lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;
 &lt;div class=&#34;teaching-section&#34;&gt;
@@ -64,20 +64,20 @@
     
     <item>
       <title>Projets</title>
-      <link>https://anthonykevins.github.io/fr/projects/</link>
+      <link>http://localhost:1313/fr/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://anthonykevins.github.io/fr/projects/</guid>
+      <guid>http://localhost:1313/fr/projects/</guid>
       <description>&lt;p&gt;Cette section offre une présentation de mes projets de recherche actuels et passés. Vous pouvez également télécharger toutes mes publications &lt;a href=&#34;https://anthonykevins.github.io/fr/publications/&#34;&gt;ici&lt;/a&gt; (libre accès) ou consulter mon &lt;a href=&#34;https://anthonykevins.github.io/files/CV_fr.pdf&#34;&gt;CV&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;
 &lt;h2 id=&#34;les-arbitrages-en-matière-de-soins-de-longue-durée&#34;&gt;Les arbitrages en matière de soins de longue durée&lt;/h2&gt;
-&lt;img style=&#34;margin-top: 0.5rem; margin-bottom: 0rem&#34; align=&#34;top&#34; src=&#34;https://anthonykevins.github.io/img/projects/downing_heading.webp&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34; title=&#34;Photo of a Downing Street sign, courtesy of Rui Chamberlain on Unsplash&#34;/&gt;
+&lt;img style=&#34;margin-top: 0.5rem; margin-bottom: 0rem&#34; align=&#34;top&#34; src=&#34;http://localhost:1313/img/projects/downing_heading.webp&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34; title=&#34;Photo of a Downing Street sign, courtesy of Rui Chamberlain on Unsplash&#34;/&gt;
 &lt;p&gt;Au Royaume-Uni, les défis liés au vieillissement de la population, au manque d’infrastructures et de personnel, ainsi qu’à la diminution du financement public ont contribué à une crise durable dans le secteur des soins de longue durée. La pandémie de COVID-19 et les pressions budgétaires qui en ont découlé ont encore aggravé la situation : elles ont accru la visibilité du problème tout en réduisant la capacité de l’État à y répondre.&lt;/p&gt;
 &lt;p&gt;Dans ce contexte de rareté des ressources, ce projet de deux ans – financé par le programme British Academy/Leverhulme Small Research Grant (SRG23\231164) – examine les préférences citoyennes en matière de soins de longue durée, en étudiant les arbitrages que les individus sont prêts à effectuer entre différentes dimensions de la politique publique (par exemple : la distribution des ressources, le financement, ou la prestation des services).&lt;/p&gt;
 &lt;p&gt;L’objectif est de répondre à la question suivante : comment le gouvernement peut-il gérer les compromis entre la nécessité de fournir des soins de qualité et le coût que ces mesures impliquent pour les citoyens, tout en assurant un soutien public durable (1) de la part des personnes les plus directement concernées à court terme et (2) au sein d’un éventail d’électeurs de différents partis ?&lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;
 &lt;h2 id=&#34;préférences-pour-la-représentation-différentielle&#34;&gt;Préférences pour la représentation différentielle&lt;/h2&gt;
-&lt;img style=&#34;margin-top: 0.5rem; margin-bottom: 0rem&#34; align=&#34;top&#34; src=&#34;https://anthonykevins.github.io/img/projects/consultation_heading.webp&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34; title=&#34;Photo of raised hands, courtesy of Jaime Lopes on Unsplash&#34;/&gt;
+&lt;img style=&#34;margin-top: 0.5rem; margin-bottom: 0rem&#34; align=&#34;top&#34; src=&#34;http://localhost:1313/img/projects/consultation_heading.webp&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34; title=&#34;Photo of raised hands, courtesy of Jaime Lopes on Unsplash&#34;/&gt;
 &lt;p&gt;La représentation équitable est le fondement de la démocratie représentative. Cela dit, les citoyens y sont-ils réellement favorables ? Comme on peut le constater en observant les débats houleux sur l’influence de certains groupes sociaux, les gens peuvent avoir des positions très diverses sur la représentation différentielle (c’est-à-dire l’influence inégale des citoyens sur le processus politique). Une personne peut croire, par exemple, qu’en matière de politiques d’intégration, les immigrés récents méritent d’avoir une influence accrue (à cause de leur degré d’affectation), une influence diminuée (à cause de leurs intérêts particuliers), ou une influence égale à celle des autres. De surcroît, le même citoyen pourrait simultanément avoir des préférences très diverses quant à d’autres groupes sociaux ou domaines politiques (par exemple, au sujet des banquiers et de la législation financière, ou des retraités et des services aux aînés). Financé par l&amp;rsquo;Union européenne par le biais d&amp;rsquo;une bourse Marie Skłodowska-Curie (« Individual Fellowship »), ce projet explore donc les attitudes envers l’influence de groupes spécifiques sur les enjeux qui les préoccupent.&lt;/p&gt;
 &lt;p&gt;Mes publications se portent sur :&lt;/p&gt;
 &lt;ul&gt;
@@ -88,7 +88,7 @@
 &lt;p&gt;Pour consulter d&amp;rsquo;autres études liées à ce projet, veuillez me contacter par &lt;a href=&#34;mailto:a.kevins@lboro.ac.uk&#34;&gt;courriel&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;
 &lt;h2 id=&#34;luniversalisme-et-létat-providence&#34;&gt;L&amp;rsquo;universalisme et l&amp;rsquo;État-providence&lt;/h2&gt;
-&lt;img style=&#34;margin-top: 0.5rem; margin-bottom: 0rem&#34; align=&#34;top&#34; src=&#34;https://anthonykevins.github.io/img/projects/universalism_heading.webp&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34; title=&#34;Photo of graffiti, courtesy of Etienne Girardet on Unsplash&#34;/&gt;
+&lt;img style=&#34;margin-top: 0.5rem; margin-bottom: 0rem&#34; align=&#34;top&#34; src=&#34;http://localhost:1313/img/projects/universalism_heading.webp&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34; title=&#34;Photo of graffiti, courtesy of Etienne Girardet on Unsplash&#34;/&gt;
 &lt;p&gt;À quel point les citoyens sont-ils attachés à l’universalisme, à la redistribution et à l’État-providence ? Quels sont les facteurs qui influencent cet attachement ? Par mon affiliation au projet UNIWEL (« Universalism and the Welfare State » ) à l’Université d’Aarhus, je me suis penché sur divers sujets liés à ce thème, incluant :&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.cambridge.org/core/services/aop-cambridge-core/content/view/D2DC2B5761B7474254AB8BEC75CF9B0D/S0047279419000175a.pdf/motive_attribution_and_the_moral_politics_of_the_welfare_state.pdf&#34;&gt;Les motivations imputées aux personnes qui sont pour ou contre la redistribution&lt;/a&gt;&lt;/li&gt;
@@ -100,7 +100,7 @@
 &lt;p&gt;Une partie de cette recherche est basée sur un sondage inédit, effectué aux États-Unis et dans neuf pays d’Europe occidentale. Cette enquête unique examine les préférences en matière de politique sociale selon différentes perspectives, notamment les préférences liées à la perception d’équité, d’immigration et de compromis sur la politique fiscale.&lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;
 &lt;h2 id=&#34;les-inclus-et-les-exclus-de-létat-providence&#34;&gt;Les inclus et les exclus de l&amp;rsquo;État-providence&lt;/h2&gt;
-&lt;img style=&#34;margin-top: 0.5rem; margin-bottom: 0rem&#34; align=&#34;top&#34; src=&#34;https://anthonykevins.github.io/img/projects/dualism_heading.webp&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34; title=&#34;Photo of a station platform, courtesy of Suad Kamardeen on Unsplash&#34;/&gt;
+&lt;img style=&#34;margin-top: 0.5rem; margin-bottom: 0rem&#34; align=&#34;top&#34; src=&#34;http://localhost:1313/img/projects/dualism_heading.webp&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34; title=&#34;Photo of a station platform, courtesy of Suad Kamardeen on Unsplash&#34;/&gt;
 &lt;p&gt;Qui mérite notre appui collectif ? Les réponses possibles à cette question ont varié radicalement à travers le temps, les pays et les domaines politiques. Alors que d&amp;rsquo;un côté, plusieurs systèmes de protection sociale se sont caractérisés par des lacunes dans leur couverture, la façon par laquelle les gouvernements ont étendu l&amp;rsquo;accès aux allocations varie grandement. D&amp;rsquo;un autre côté, ce processus a toutefois été accompagné d’efforts pour restreindre l&amp;rsquo;accès, afin de décourager la dépendance et de limiter les dépenses sociales.&lt;/p&gt;
 &lt;p&gt;Mes publications sur ce sujet se focalisent sur :&lt;/p&gt;
 &lt;ul&gt;
@@ -115,10 +115,10 @@
     
     <item>
       <title>Publications</title>
-      <link>https://anthonykevins.github.io/fr/publications/</link>
+      <link>http://localhost:1313/fr/publications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://anthonykevins.github.io/fr/publications/</guid>
+      <guid>http://localhost:1313/fr/publications/</guid>
       <description>&lt;p&gt; &lt;/p&gt;
 &lt;div class=&#34;pub-section&#34;&gt;
 &lt;h2&gt;Livres (avec comité de lecture)&lt;/h2&gt;

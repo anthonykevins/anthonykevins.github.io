@@ -2,10 +2,10 @@
   
     <url>
     
-      <xhtml:link rel="alternate" href="https://anthonykevins.github.io/fr/" hreflang="fr"/>
-      <xhtml:link rel="alternate" href="https://anthonykevins.github.io/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="http://localhost:1313/fr/" hreflang="fr"/>
+      <xhtml:link rel="alternate" href="http://localhost:1313/" hreflang="en"/>
     
-      <loc>https://anthonykevins.github.io/fr/</loc>
+      <loc>http://localhost:1313/fr/</loc>
       <lastmod>2026-04-14T00:00:00+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -13,10 +13,10 @@
   
     <url>
     
-      <xhtml:link rel="alternate" href="https://anthonykevins.github.io/fr/outreach/newsweek/" hreflang="fr"/>
-      <xhtml:link rel="alternate" href="https://anthonykevins.github.io/outreach/newsweek/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="http://localhost:1313/fr/outreach/newsweek/" hreflang="fr"/>
+      <xhtml:link rel="alternate" href="http://localhost:1313/outreach/newsweek/" hreflang="en"/>
     
-      <loc>https://anthonykevins.github.io/fr/outreach/newsweek/</loc>
+      <loc>http://localhost:1313/fr/outreach/newsweek/</loc>
       <lastmod>2026-04-14T00:00:00+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -24,10 +24,10 @@
   
     <url>
     
-      <xhtml:link rel="alternate" href="https://anthonykevins.github.io/fr/outreach/" hreflang="fr"/>
-      <xhtml:link rel="alternate" href="https://anthonykevins.github.io/outreach/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="http://localhost:1313/fr/outreach/" hreflang="fr"/>
+      <xhtml:link rel="alternate" href="http://localhost:1313/outreach/" hreflang="en"/>
     
-      <loc>https://anthonykevins.github.io/fr/outreach/</loc>
+      <loc>http://localhost:1313/fr/outreach/</loc>
       <lastmod>2026-04-14T00:00:00+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -35,10 +35,10 @@
   
     <url>
     
-      <xhtml:link rel="alternate" href="https://anthonykevins.github.io/fr/outreach/life-in-politics/" hreflang="fr"/>
-      <xhtml:link rel="alternate" href="https://anthonykevins.github.io/outreach/life-in-politics/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="http://localhost:1313/fr/outreach/life-in-politics/" hreflang="fr"/>
+      <xhtml:link rel="alternate" href="http://localhost:1313/outreach/life-in-politics/" hreflang="en"/>
     
-      <loc>https://anthonykevins.github.io/fr/outreach/life-in-politics/</loc>
+      <loc>http://localhost:1313/fr/outreach/life-in-politics/</loc>
       <lastmod>2025-05-09T00:00:00+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -46,10 +46,10 @@
   
     <url>
     
-      <xhtml:link rel="alternate" href="https://anthonykevins.github.io/fr/outreach/future-focus/" hreflang="fr"/>
-      <xhtml:link rel="alternate" href="https://anthonykevins.github.io/outreach/future-focus/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="http://localhost:1313/fr/outreach/future-focus/" hreflang="fr"/>
+      <xhtml:link rel="alternate" href="http://localhost:1313/outreach/future-focus/" hreflang="en"/>
     
-      <loc>https://anthonykevins.github.io/fr/outreach/future-focus/</loc>
+      <loc>http://localhost:1313/fr/outreach/future-focus/</loc>
       <lastmod>2024-09-18T00:00:00+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -57,10 +57,10 @@
   
     <url>
     
-      <xhtml:link rel="alternate" href="https://anthonykevins.github.io/fr/outreach/vancouver-sun/" hreflang="fr"/>
-      <xhtml:link rel="alternate" href="https://anthonykevins.github.io/outreach/vancouver-sun/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="http://localhost:1313/fr/outreach/vancouver-sun/" hreflang="fr"/>
+      <xhtml:link rel="alternate" href="http://localhost:1313/outreach/vancouver-sun/" hreflang="en"/>
     
-      <loc>https://anthonykevins.github.io/fr/outreach/vancouver-sun/</loc>
+      <loc>http://localhost:1313/fr/outreach/vancouver-sun/</loc>
       <lastmod>2024-08-11T00:00:00+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -68,10 +68,10 @@
   
     <url>
     
-      <xhtml:link rel="alternate" href="https://anthonykevins.github.io/fr/outreach/business-network/" hreflang="fr"/>
-      <xhtml:link rel="alternate" href="https://anthonykevins.github.io/outreach/business-network/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="http://localhost:1313/fr/outreach/business-network/" hreflang="fr"/>
+      <xhtml:link rel="alternate" href="http://localhost:1313/outreach/business-network/" hreflang="en"/>
     
-      <loc>https://anthonykevins.github.io/fr/outreach/business-network/</loc>
+      <loc>http://localhost:1313/fr/outreach/business-network/</loc>
       <lastmod>2024-04-06T00:00:00+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -79,10 +79,10 @@
   
     <url>
     
-      <xhtml:link rel="alternate" href="https://anthonykevins.github.io/fr/outreach/the-political-behavior-blog/" hreflang="fr"/>
-      <xhtml:link rel="alternate" href="https://anthonykevins.github.io/outreach/the-political-behavior-blog/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="http://localhost:1313/fr/outreach/the-political-behavior-blog/" hreflang="fr"/>
+      <xhtml:link rel="alternate" href="http://localhost:1313/outreach/the-political-behavior-blog/" hreflang="en"/>
     
-      <loc>https://anthonykevins.github.io/fr/outreach/the-political-behavior-blog/</loc>
+      <loc>http://localhost:1313/fr/outreach/the-political-behavior-blog/</loc>
       <lastmod>2021-10-11T00:00:00+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -90,10 +90,10 @@
   
     <url>
     
-      <xhtml:link rel="alternate" href="https://anthonykevins.github.io/fr/outreach/stuk-rood-vlees/" hreflang="fr"/>
-      <xhtml:link rel="alternate" href="https://anthonykevins.github.io/outreach/stuk-rood-vlees/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="http://localhost:1313/fr/outreach/stuk-rood-vlees/" hreflang="fr"/>
+      <xhtml:link rel="alternate" href="http://localhost:1313/outreach/stuk-rood-vlees/" hreflang="en"/>
     
-      <loc>https://anthonykevins.github.io/fr/outreach/stuk-rood-vlees/</loc>
+      <loc>http://localhost:1313/fr/outreach/stuk-rood-vlees/</loc>
       <lastmod>2021-09-29T00:00:00+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -101,10 +101,10 @@
   
     <url>
     
-      <xhtml:link rel="alternate" href="https://anthonykevins.github.io/fr/outreach/work-in-progress/" hreflang="fr"/>
-      <xhtml:link rel="alternate" href="https://anthonykevins.github.io/outreach/work-in-progress/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="http://localhost:1313/fr/outreach/work-in-progress/" hreflang="fr"/>
+      <xhtml:link rel="alternate" href="http://localhost:1313/outreach/work-in-progress/" hreflang="en"/>
     
-      <loc>https://anthonykevins.github.io/fr/outreach/work-in-progress/</loc>
+      <loc>http://localhost:1313/fr/outreach/work-in-progress/</loc>
       <lastmod>2021-09-16T00:00:00+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -112,10 +112,10 @@
   
     <url>
     
-      <xhtml:link rel="alternate" href="https://anthonykevins.github.io/fr/outreach/post/" hreflang="fr"/>
-      <xhtml:link rel="alternate" href="https://anthonykevins.github.io/outreach/post/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="http://localhost:1313/fr/outreach/post/" hreflang="fr"/>
+      <xhtml:link rel="alternate" href="http://localhost:1313/outreach/post/" hreflang="en"/>
     
-      <loc>https://anthonykevins.github.io/fr/outreach/post/</loc>
+      <loc>http://localhost:1313/fr/outreach/post/</loc>
       <lastmod>2020-10-07T00:00:00+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -123,10 +123,10 @@
   
     <url>
     
-      <xhtml:link rel="alternate" href="https://anthonykevins.github.io/fr/outreach/the-social-policy-blog/" hreflang="fr"/>
-      <xhtml:link rel="alternate" href="https://anthonykevins.github.io/outreach/the-social-policy-blog/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="http://localhost:1313/fr/outreach/the-social-policy-blog/" hreflang="fr"/>
+      <xhtml:link rel="alternate" href="http://localhost:1313/outreach/the-social-policy-blog/" hreflang="en"/>
     
-      <loc>https://anthonykevins.github.io/fr/outreach/the-social-policy-blog/</loc>
+      <loc>http://localhost:1313/fr/outreach/the-social-policy-blog/</loc>
       <lastmod>2019-05-08T00:00:00+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -134,10 +134,10 @@
   
     <url>
     
-      <xhtml:link rel="alternate" href="https://anthonykevins.github.io/fr/outreach/cordis/" hreflang="fr"/>
-      <xhtml:link rel="alternate" href="https://anthonykevins.github.io/outreach/cordis/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="http://localhost:1313/fr/outreach/cordis/" hreflang="fr"/>
+      <xhtml:link rel="alternate" href="http://localhost:1313/outreach/cordis/" hreflang="en"/>
     
-      <loc>https://anthonykevins.github.io/fr/outreach/cordis/</loc>
+      <loc>http://localhost:1313/fr/outreach/cordis/</loc>
       <lastmod>2019-04-30T00:00:00+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -145,10 +145,10 @@
   
     <url>
     
-      <xhtml:link rel="alternate" href="https://anthonykevins.github.io/fr/outreach/le-monde/" hreflang="fr"/>
-      <xhtml:link rel="alternate" href="https://anthonykevins.github.io/outreach/le-monde/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="http://localhost:1313/fr/outreach/le-monde/" hreflang="fr"/>
+      <xhtml:link rel="alternate" href="http://localhost:1313/outreach/le-monde/" hreflang="en"/>
     
-      <loc>https://anthonykevins.github.io/fr/outreach/le-monde/</loc>
+      <loc>http://localhost:1313/fr/outreach/le-monde/</loc>
       <lastmod>2019-03-22T00:00:00+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -156,10 +156,10 @@
   
     <url>
     
-      <xhtml:link rel="alternate" href="https://anthonykevins.github.io/fr/outreach/discover-society/" hreflang="fr"/>
-      <xhtml:link rel="alternate" href="https://anthonykevins.github.io/outreach/discover-society/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="http://localhost:1313/fr/outreach/discover-society/" hreflang="fr"/>
+      <xhtml:link rel="alternate" href="http://localhost:1313/outreach/discover-society/" hreflang="en"/>
     
-      <loc>https://anthonykevins.github.io/fr/outreach/discover-society/</loc>
+      <loc>http://localhost:1313/fr/outreach/discover-society/</loc>
       <lastmod>2019-02-06T00:00:00+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -167,10 +167,10 @@
   
     <url>
     
-      <xhtml:link rel="alternate" href="https://anthonykevins.github.io/fr/outreach/macleans/" hreflang="fr"/>
-      <xhtml:link rel="alternate" href="https://anthonykevins.github.io/outreach/macleans/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="http://localhost:1313/fr/outreach/macleans/" hreflang="fr"/>
+      <xhtml:link rel="alternate" href="http://localhost:1313/outreach/macleans/" hreflang="en"/>
     
-      <loc>https://anthonykevins.github.io/fr/outreach/macleans/</loc>
+      <loc>http://localhost:1313/fr/outreach/macleans/</loc>
       <lastmod>2019-01-11T00:00:00+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -178,10 +178,10 @@
   
     <url>
     
-      <xhtml:link rel="alternate" href="https://anthonykevins.github.io/fr/outreach/lse-british-politics-and-policy/" hreflang="fr"/>
-      <xhtml:link rel="alternate" href="https://anthonykevins.github.io/outreach/lse-british-politics-and-policy/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="http://localhost:1313/fr/outreach/lse-british-politics-and-policy/" hreflang="fr"/>
+      <xhtml:link rel="alternate" href="http://localhost:1313/outreach/lse-british-politics-and-policy/" hreflang="en"/>
     
-      <loc>https://anthonykevins.github.io/fr/outreach/lse-british-politics-and-policy/</loc>
+      <loc>http://localhost:1313/fr/outreach/lse-british-politics-and-policy/</loc>
       <lastmod>2018-06-25T00:00:00+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -189,10 +189,10 @@
   
     <url>
     
-      <xhtml:link rel="alternate" href="https://anthonykevins.github.io/fr/outreach/globe-and-mail/" hreflang="fr"/>
-      <xhtml:link rel="alternate" href="https://anthonykevins.github.io/outreach/globe-and-mail/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="http://localhost:1313/fr/outreach/globe-and-mail/" hreflang="fr"/>
+      <xhtml:link rel="alternate" href="http://localhost:1313/outreach/globe-and-mail/" hreflang="en"/>
     
-      <loc>https://anthonykevins.github.io/fr/outreach/globe-and-mail/</loc>
+      <loc>http://localhost:1313/fr/outreach/globe-and-mail/</loc>
       <lastmod>2015-06-15T00:00:00+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -200,100 +200,100 @@
   
     <url>
     
-      <xhtml:link rel="alternate" href="https://anthonykevins.github.io/fr/author/admin/" hreflang="fr"/>
-      <xhtml:link rel="alternate" href="https://anthonykevins.github.io/author/admin/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="http://localhost:1313/fr/author/admin/" hreflang="fr"/>
+      <xhtml:link rel="alternate" href="http://localhost:1313/author/admin/" hreflang="en"/>
     
-      <loc>https://anthonykevins.github.io/fr/author/admin/</loc>
+      <loc>http://localhost:1313/fr/author/admin/</loc>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
     </url>
   
     <url>
     
-      <xhtml:link rel="alternate" href="https://anthonykevins.github.io/fr/authors/admin/" hreflang="fr"/>
-      <xhtml:link rel="alternate" href="https://anthonykevins.github.io/authors/admin/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="http://localhost:1313/fr/authors/admin/" hreflang="fr"/>
+      <xhtml:link rel="alternate" href="http://localhost:1313/authors/admin/" hreflang="en"/>
     
-      <loc>https://anthonykevins.github.io/fr/authors/admin/</loc>
+      <loc>http://localhost:1313/fr/authors/admin/</loc>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
     </url>
   
     <url>
     
-      <xhtml:link rel="alternate" href="https://anthonykevins.github.io/fr/authors/" hreflang="fr"/>
-      <xhtml:link rel="alternate" href="https://anthonykevins.github.io/authors/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="http://localhost:1313/fr/authors/" hreflang="fr"/>
+      <xhtml:link rel="alternate" href="http://localhost:1313/authors/" hreflang="en"/>
     
-      <loc>https://anthonykevins.github.io/fr/authors/</loc>
+      <loc>http://localhost:1313/fr/authors/</loc>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
     </url>
   
     <url>
     
-      <xhtml:link rel="alternate" href="https://anthonykevins.github.io/fr/author/" hreflang="fr"/>
-      <xhtml:link rel="alternate" href="https://anthonykevins.github.io/author/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="http://localhost:1313/fr/author/" hreflang="fr"/>
+      <xhtml:link rel="alternate" href="http://localhost:1313/author/" hreflang="en"/>
     
-      <loc>https://anthonykevins.github.io/fr/author/</loc>
+      <loc>http://localhost:1313/fr/author/</loc>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
     </url>
   
     <url>
     
-      <xhtml:link rel="alternate" href="https://anthonykevins.github.io/fr/categories/" hreflang="fr"/>
-      <xhtml:link rel="alternate" href="https://anthonykevins.github.io/categories/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="http://localhost:1313/fr/categories/" hreflang="fr"/>
+      <xhtml:link rel="alternate" href="http://localhost:1313/categories/" hreflang="en"/>
     
-      <loc>https://anthonykevins.github.io/fr/categories/</loc>
+      <loc>http://localhost:1313/fr/categories/</loc>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
     </url>
   
     <url>
     
-      <xhtml:link rel="alternate" href="https://anthonykevins.github.io/fr/teaching/" hreflang="fr"/>
-      <xhtml:link rel="alternate" href="https://anthonykevins.github.io/teaching/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="http://localhost:1313/fr/teaching/" hreflang="fr"/>
+      <xhtml:link rel="alternate" href="http://localhost:1313/teaching/" hreflang="en"/>
     
-      <loc>https://anthonykevins.github.io/fr/teaching/</loc>
+      <loc>http://localhost:1313/fr/teaching/</loc>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
     </url>
   
     <url>
     
-      <xhtml:link rel="alternate" href="https://anthonykevins.github.io/fr/projects/" hreflang="fr"/>
-      <xhtml:link rel="alternate" href="https://anthonykevins.github.io/projects/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="http://localhost:1313/fr/projects/" hreflang="fr"/>
+      <xhtml:link rel="alternate" href="http://localhost:1313/projects/" hreflang="en"/>
     
-      <loc>https://anthonykevins.github.io/fr/projects/</loc>
+      <loc>http://localhost:1313/fr/projects/</loc>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
     </url>
   
     <url>
     
-      <xhtml:link rel="alternate" href="https://anthonykevins.github.io/fr/publication_types/" hreflang="fr"/>
-      <xhtml:link rel="alternate" href="https://anthonykevins.github.io/publication_types/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="http://localhost:1313/fr/publication_types/" hreflang="fr"/>
+      <xhtml:link rel="alternate" href="http://localhost:1313/publication_types/" hreflang="en"/>
     
-      <loc>https://anthonykevins.github.io/fr/publication_types/</loc>
+      <loc>http://localhost:1313/fr/publication_types/</loc>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
     </url>
   
     <url>
     
-      <xhtml:link rel="alternate" href="https://anthonykevins.github.io/fr/publications/" hreflang="fr"/>
-      <xhtml:link rel="alternate" href="https://anthonykevins.github.io/publications/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="http://localhost:1313/fr/publications/" hreflang="fr"/>
+      <xhtml:link rel="alternate" href="http://localhost:1313/publications/" hreflang="en"/>
     
-      <loc>https://anthonykevins.github.io/fr/publications/</loc>
+      <loc>http://localhost:1313/fr/publications/</loc>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
     </url>
   
     <url>
     
-      <xhtml:link rel="alternate" href="https://anthonykevins.github.io/fr/tags/" hreflang="fr"/>
-      <xhtml:link rel="alternate" href="https://anthonykevins.github.io/tags/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="http://localhost:1313/fr/tags/" hreflang="fr"/>
+      <xhtml:link rel="alternate" href="http://localhost:1313/tags/" hreflang="en"/>
     
-      <loc>https://anthonykevins.github.io/fr/tags/</loc>
+      <loc>http://localhost:1313/fr/tags/</loc>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
     </url>
