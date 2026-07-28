@@ -1,1 +1,1 @@
-User-agent: *
+Sitemap: https://anthonykevins.github.io/sitemap.xml
