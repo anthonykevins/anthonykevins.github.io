@@ -1,4 +1,1 @@
 User-agent: *
-Disallow:
-
-Sitemap: https://anthonykevins.github.io/sitemap.xml
